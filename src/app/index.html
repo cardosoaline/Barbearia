@@ -3,17 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <title>Barbearia Alura</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../app/css/reset.css" />
+    <link rel="stylesheet" href="../app/css/style.css" />
   </head>
 
   <body>
-    <header>
-      <h1 class="titulo-principal">Barbearia Alura</h1>
+    <header>   
+      <div class="container">
+        <!--Utiliza-se H1 mantendo a maxima importancia do cabeçalho-->
+        <h1><img src="../app/img/logo.png"></h1>
+        <nav>
+          <!--Lista não ordenada-->
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
+
+
+
     <img
       id="banner"
       alt="imagem que mostra o espaço da barbearia"
-      src="banner.jpg"
+      src="../app/img/banner.jpg"
     />
     <div class="principal">
       <h2 class="titulocentralizado">Sobre a Barbearia Alura</h2>
@@ -51,10 +66,14 @@
         <li class="itens">Profissionais Qualificados</li>
       </ul>
       <img
-        src="beneficios.jpg"
+        src="../app/img/beneficios.jpg"
         alt="imagem de um homem fazendo a barba"
         class="imagembeneficios"
       />
     </div>
+    <footer>
+      <img src="../app/img/logo-branco.png" alt="logo barbearia">
+      <p class="copyright">© copyright Barbearia Alura - 2022</p>
+    </footer>
   </body>
 </html>
